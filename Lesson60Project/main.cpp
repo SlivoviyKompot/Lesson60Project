@@ -13,16 +13,11 @@ int main() {
 	buses[6] = Bus("Scania", "7890GH7", 49000, 48);
 	buses[7] = Bus("MAZ", "8901HJ7", 12000, 13);
 	buses[8] = Bus("Neoplan", "9012KL7", 123000, 67);
-	buses[9] = Bus("Volvo", "0123ZX7", 15000, 21);
+	buses[9] = Bus("Volvo", "0123ZX7", 15000, 21);	
 
 	for (int i = 0; i < SIZE; i++) {
 		cout << buses[i].convert() << endl;
 	}
-	
-
-	// call business logic
-
-	// output result
 
 	return 0;
 }

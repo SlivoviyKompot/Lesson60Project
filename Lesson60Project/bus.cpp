@@ -14,30 +14,31 @@ Bus::Bus(string b, string i, int c, int s) {
 	seats = s;
 }
 
-//int get_brand() {
-//
-//}
-//void set_brand(int value) {
-//
-//}
-//int get_id() {
-//
-//}
-//void set_id(int value) {
-//
-//}
-//int get_cost() {
-//
-//}
-//void set_cost(int value) {
-//
-//}
-//int get_seats() {
-//
-//}
-//void set_seats(int value) {
-//
-//}
+string Bus::get_brand() {
+	return brand;
+}
+void Bus::set_brand(int b) {
+	brand = b;
+}
+
+string Bus::get_id() {
+	return id;
+}
+void Bus::set_id(int i) {
+	id = i;
+}
+int Bus::get_cost() {
+	return cost;
+}
+void Bus::set_cost(int c) {
+	cost = c;
+}
+int Bus::get_seats() {
+	return seats;
+}
+void Bus::set_seats(int s) {
+	seats = s;
+}
 
 string Bus::convert() {
 	return brand + ": id = " + id + ", cost = " + to_string(cost) + ", seats = " + to_string(seats);

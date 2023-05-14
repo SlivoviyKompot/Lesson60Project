@@ -10,14 +10,14 @@ public:
 	Bus();
 	Bus(string brand, string id, int cost, int seats);
 
-	/*int get_brand();
+	string get_brand();
 	void set_brand(int value);
-	int get_id();
+	string get_id();
 	void set_id(int value);
 	int get_cost();
 	void set_cost(int value);
 	int get_seats();
-	void set_seats(int value);*/
+	void set_seats(int value);
 
 	string convert();
 
